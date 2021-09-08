@@ -1,0 +1,111 @@
+<style>
+
+h1 {
+
+}
+
+header {
+    font-size: 30px;
+    font-family: "Brush Script MT";
+    text-align: center;
+    background-color: #c73333;
+    margin: 0;
+    padding-bottom: 1%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: white;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+    position: fixed;
+    top: 5%;
+    width: 100%;
+
+}
+
+.navigationlist {
+    float: left;
+}
+
+.nav-a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.nav-a:hover {
+    background-color: #c73333;
+    color: white;
+}
+
+.active {
+    background-color: #c73333;
+    color: white;
+}
+
+
+main {
+    margin-top: 5%;
+    margin-left: 0;
+    height: 1000px;
+    background-color: white;
+    font-family: Verdana;
+}
+
+.imgprofile {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    width: 300px;
+}
+
+.aside-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.aside-list {
+    float: left;
+    text-align: center;
+}
+
+.aside-a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    background-color: silver;
+}
+
+.aside-a:hover {
+    color: white;
+}
+
+.imghome {
+    width: 20%;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.hzlogo {
+    width: 2%;
+}
+
+</style>
