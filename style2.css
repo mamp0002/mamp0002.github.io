@@ -176,4 +176,8 @@ main {
     background-color: black;
 }
 
+.blogpost {
+    border-top: solid 1px black;
+}
+
 </style>
