@@ -108,4 +108,35 @@ main {
     width: 2%;
 }
 
+.courses {
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+}
+
+.courses thead {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.courses th, .courses td {
+    padding: 12px 15px;
+}
+
+.courses tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.courses tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.courses tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
 </style>
