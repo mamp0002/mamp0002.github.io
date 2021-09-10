@@ -12,7 +12,7 @@ header {
     margin: 0;
     padding-bottom: 1%;
     position: fixed;
-    width: 1503px;
+    width: 1503px; 
     top: 0;
     color: white;
 }
@@ -73,11 +73,13 @@ header {
 }
 
 .imghome {
-    width: 75%;
-    border-radius: 50%;
+    width: 70%;
+    border-radius: 25%;
     border-color: black;
-    border-width: 5px;
+    border-width: 1px;
     border-style: solid;
+    margin-left: 10%;
+    margin-top: 8%;
 }
 
 .grid {
@@ -90,8 +92,7 @@ header {
 
 .indexmain {
     margin-top: 5%;
-    margin-left: 0;
-    height: 1000px;
+    height: 1200px;
     background-color: white;
     font-family: Verdana;
 }
@@ -104,11 +105,19 @@ main {
     font-family: Verdana;
 }
 
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
 .imgprofile {
     border-color: black;
-    border-width: 5px;
+    border-width: 1px;
     border-style: solid;
-    width: 300px;
+    border-radius: 25%;
+    width: 40%;
 }
 
 .aside-menu {
@@ -148,7 +157,7 @@ main {
 
 .courses {
     border-collapse: collapse;
-    box-shadow: 0 0 20px #c73333;
+    box-shadow: 0 0 20px #5e92aa;
     margin: 25px 0;
     font-size: 0.9em;
     font-family: sans-serif;
@@ -158,10 +167,10 @@ main {
 }
 
 .courses thead {
-    background-color: gray;
+    background-color: rgb(47, 75, 100);
     color: #ffffff;
     text-align: left;
-    border-bottom: 1px solid #c73333;
+    border-bottom: 1px solid #5e92aa;
 }
 
 .courses th, .courses td {
@@ -169,7 +178,7 @@ main {
 }
 
 .courses tbody tr {
-    border-bottom: 1px solid #c73333;
+    border-bottom: 1px solid #5e92aa;
 }
 
 .courses tbody tr:nth-of-type(even) {
@@ -177,7 +186,7 @@ main {
 }
 
 .courses tbody tr:last-of-type {
-    border-bottom: 1px solid #c73333;
+    border-bottom: 1px solid #5e92aa;
 }
 
 .imgquestion {
@@ -185,16 +194,6 @@ main {
     position: absolute;
     right: 0;
     bottom: 10;
-}
-
-.buttonlink {
-    background-color: #c73333;
-    color: white;
-    text-decoration: none;
-}
-
-.buttonlink:hover {
-    background-color: black;
 }
 
 .blogpost {
