@@ -12,9 +12,10 @@ header {
     margin: 0;
     padding-bottom: 1%;
     position: fixed;
-    width: 1503px; 
+    width: 100%; 
     top: 0;
     color: white;
+    z-index: 2;
 }
 
 .container {
@@ -25,17 +26,19 @@ header {
 
 .banner {
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-size: cover;
 }
 
 .text-over-image {
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 10%;
     right: 10%;
+    transform: translate(-10%, -50%, -10%);
     color: white;
     font-size: 30pt;
+    z-index: 1;
 }
 
 .navigation {
@@ -46,7 +49,8 @@ header {
     background-color: black;
     position: fixed;
     top: 9%;
-    width: 1503px;
+    width: 100%;
+    z-index: 2;
 
 }
 
@@ -198,6 +202,15 @@ main {
 
 .blogpost {
     border-top: solid 1px black;
+}
+
+.poster {
+    width: 40%;
+}
+
+.grid3 {
+        display: grid;
+        grid-template-columns: auto auto;
 }
 
 </style>
