@@ -1,7 +1,5 @@
-<style>
-
-h1 {
-
+* {
+    margin: 0;
 }
 
 h3 {
@@ -164,11 +162,12 @@ main {
 .hzlogo {
     width: 3%;
     float: right;
+    padding: 3px;
 }
 
 .courses {
     border-collapse: collapse;
-    !box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
     font-size: 0.9em;
     font-family: Verdana;
     width: 70%;
@@ -229,5 +228,3 @@ main {
         grid-gap: 10px 50px;
         justify-items: center;
 }
-
-</style>
