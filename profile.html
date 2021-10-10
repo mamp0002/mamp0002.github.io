@@ -2,30 +2,35 @@
 <html lang="en">
 
 <head>
+    <title>My profile</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My profile</title>
-    <link href="style2.css" rel="stylesheet">
+    <meta name="description"
+        content="A page about who I am and what my hobbies and extra-curricular activities include.">
+    <link href="style-website.css" rel="stylesheet">
 </head>
 
 <body>
-    <header><a href="https://www.hz.nl" target="_blank"><img src="resources/hzlogo.png" class="hzlogo"></a>My Profile
+    <header><a href="https://www.hz.nl" target="_blank"><img alt="HZ logo" src="resources/hzlogo.png"
+                class="hzlogo"></a>My Profile
         Page</header>
-    <ul class="navigation">
-        <li class="navigationlist"><a class="nav-a" href="index.html">Home</a></li>
-        <li class="navigationlist"><a class="active nav-a" href="profile.html">Profile</a></li>
-        <li class="navigationlist"><a class="nav-a" href="dashboard.html">Dashboard</a></li>
-        <li class="navigationlist"><a class="nav-a" href="blog.html">Blog</a></li>
-        <li class="navigationlist" style="float:right"><a class="nav-a" href="faq.html">FAQ</a></li>
-    </ul>
-    <main>
-        <div class="grid2">
-            <div>
-                <img src="resources/foto2site.jpg" class="imgprofile">
-                <img src="resources/imgprofile3.jpeg" class="imgprofile" style="width: 30%">
-            </div>
-            <div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="profile.html">Profile</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <main class="margin-not-index">
+        <section class="grid-profile">
+            <article>
+                <img alt="Picture of my dog and cat" src="resources/foto2site.jpg" class="imgprofile">
+                <img alt="Picture of two unicorns I crocheted" src="resources/imgprofile3.jpeg" class="imgcroch">
+            </article>
+            <article>
                 <h3>Personal Information</h3>
                 <p>As you may have noticed, my name is Manon Mampaey. I am 23 years old and I am from Middelburg (The
                     Netherlands). I am currently living there with my boyfriend, dog and cat.
@@ -40,37 +45,37 @@
                     <li>Creative</li>
                 </ul>
                 </p>
-            </div>
-            <div>
+            </article>
+            <article>
                 <h3>Extra-curricular activities and hobbies</h3>
                 <p>On Saturdays, I work at a winebar called &#x0022De Moriaan&#x0022, which is located in Middelburg.
                     Some things I like to do when I am not studying or working are running, reading, meditate, yoga,
                     training my dog and crocheting. In the picture above you will see some things that I made.
                 </p>
-            </div>
-            <div>
-                <img src="resources/foto1site.jpg" class="imgprofile">
-            </div>
-
-        </div>
+            </article>
+            <article>
+                <img alt="Picture of me, my boyfriend and my dog" src="resources/foto1site.jpg" class="imgprofile">
+            </article>
+        </section>
     </main>
 </body>
 <footer>
-    <ul class="aside-menu">
-        <li class="aside-list"><a class="aside-a" href="resources/CER.pdf" target="_blank">CER2</a></li>
-        <li class="aside-list"><a class="aside-a"
-                href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
+<aside>
+    <ul>
+        <li><a href="resources/CER.pdf" target="_blank">CER2</a></li>
+        <li><a href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
                 target="_blank">IR</a></li>
-        <li class="aside-list"><a class="aside-a" href="https://learn.hz.nl/my/" target="_blank" target="_blank">The
+        <li><a href="https://learn.hz.nl/my/" target="_blank" target="_blank">The
                 Learn Environment</a></li>
-        <li class="aside-list"><a class="aside-a"
+        <li><a
                 href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c"
                 target="_blank">Teams environment</a></li>
-        <li class="aside-list"><a class="aside-a" href="https://apps.hz.nl/angular/studievoortgang/studiestatus"
+        <li><a href="https://apps.hz.nl/angular/studievoortgang/studiestatus"
                 target="_blank">Study Progress</a></li>
-        <li class="aside-list"><a class="aside-a" href="https://github.com/HZ-HBO-ICT" target="_blank">Github
+        <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">Github
                 Environment</a></li>
     </ul>
+</aside>
 </footer>
 
 </html>

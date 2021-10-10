@@ -2,54 +2,64 @@
 <html>
 
 <head>
+    <title>Blog</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog</title>
-    <link href="style2.css" rel="stylesheet">
+    <meta name="description" content="Page with all of the blogposts.">
+    <link href="style-website.css" rel="stylesheet">
 </head>
 
 <body>
-    <header><a href="https://www.hz.nl" target="_blank"><img src="resources/hzlogo.png" class="hzlogo"></a>My personal
+    <header><a href="https://www.hz.nl" target="_blank"><img alt="HZ-logo" src="resources/hzlogo.png" class="hzlogo"></a>My personal
         Blog</header>
-    <ul class="navigation">
-        <li class="navigationlist"><a class="nav-a" href="index.html">Home</a></li>
-        <li class="navigationlist"><a class="nav-a" href="profile.html">Profile</a></li>
-        <li class="navigationlist"><a class="nav-a" href="dashboard.html">Dashboard</a></li>
-        <li class="navigationlist"><a class="active nav-a" href="blog.html">Blog</a></li>
-        <li class="navigationlist" style="float:right"><a class="nav-a" href="faq.html">FAQ</a></li>
-    </ul>
-    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    <main class="margin-not-index">
         <section>
             <article class="blogpost">
-                <p style="font-size: 10pt; display:inline"><i>10-09-2021</i></p><br>
-                <h3 style="display:inline">Profession</h3>
+                <small><i>07-10-2021</i></small><br>
+                <h3>Feedback pitch website</h3>
+                <p>I received feedback after my pitch and make a list of tasks.
+                    <a href="blogfeedbackwebsite.html">Read more...</a>
+                </p>
+            </article>
+            <article class="blogpost">
+                <small><i>10-09-2021</i></small><br>
+                <h3>Profession</h3>
                 <p>I discuss three ICT companies that interest me and compare the pros and cons for each company.
                     <a href="blogprofession.html">Read more...</a>
                 </p>
             </article>
             <article class="blogpost">
-                <p style="font-size: 10pt; display:inline"><i>09-09-2021</i></p><br>
-                <h3 style="display:inline">First Feedback</h3>
+                <small><i>09-09-2021</i></small><br>
+                <h3>First Feedback</h3>
                 <p>Containing the feedback I recieved on my Who Am I document. <a href="blogfeedback.html">Read
                         more...</a></p>
             </article>
             <article class="blogpost">
-                <p style="font-size: 10pt; display:inline"><i>08-09-2021</i></br>
-                <h3 style="display:inline">Programming experience</h3>
+                <small><i>08-09-2021</i></small></br>
+                <h3>Programming experience</h3>
                 <p>Do I have programming experience? What kind of experience and how did I gain the experience?
                     <a href="blogexperience.html">Read more...</a>
                 </p>
             </article>
             <article class="blogpost">
-                <p style="font-size: 10pt; display:inline"><i>08-09-2021</i></p><br>
-                <h3 style="display:inline">Personal SWOT-Analysis</h3>
+                <small><i>08-09-2021</i></small><br>
+                <h3>Personal SWOT-Analysis</h3>
                 <p>My Personal SWOT-Analysis, my strengths and weaknesses and an inventory of the opportunities and
                     threats I expect in my studies. <a href="blogswot.html">Read more...</a></p>
             </article>
             <article class="blogpost">
-                <p style="font-size: 10pt; display:inline"><i>08-09-2021</i></p><br>
-                <h3 style="display:inline">Study Choice</h3>
+                <small><i>08-09-2021</i></small><br>
+                <h3>Study Choice</h3>
                 <p>On the HomePage, I explained briefly why I chose for ICT, in this blogpost I elaborate on that
                     a bit more. <a href="blogstudychoice.html">Read more...</a></p>
             </article>
@@ -57,21 +67,22 @@
     </main>
 </body>
 <footer>
-    <ul class="aside-menu">
-        <li class="aside-list"><a class="aside-a" href="resources/CER.pdf" target="_blank">CER2</a></li>
-        <li class="aside-list"><a class="aside-a"
-                href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
+<aside>
+    <ul>
+        <li><a href="resources/CER.pdf" target="_blank">CER2</a></li>
+        <li><a href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
                 target="_blank">IR</a></li>
-        <li class="aside-list"><a class="aside-a" href="https://learn.hz.nl/my/" target="_blank" target="_blank">The
+        <li><a href="https://learn.hz.nl/my/" target="_blank" target="_blank">The
                 Learn Environment</a></li>
-        <li class="aside-list"><a class="aside-a"
+        <li><a
                 href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c"
                 target="_blank">Teams environment</a></li>
-        <li class="aside-list"><a class="aside-a" href="https://apps.hz.nl/angular/studievoortgang/studiestatus"
+        <li><a href="https://apps.hz.nl/angular/studievoortgang/studiestatus"
                 target="_blank">Study Progress</a></li>
-        <li class="aside-list"><a class="aside-a" href="https://github.com/HZ-HBO-ICT" target="_blank">Github
+        <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">Github
                 Environment</a></li>
     </ul>
+</aside>
 </footer>
 
 </html>

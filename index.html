@@ -2,49 +2,51 @@
 <html>
 
 <head>
+    <title>Homepage</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
-    <link href="style2.css" rel="stylesheet">
+    <meta name="description" content="The homepage to my first ever website about myself made as an 
+    assignment for the ICT programme of the HZ University.">
+    <link href="style-website.css" rel="stylesheet">
 </head>
 
 <body>
-    <header><a href="https://www.hz.nl" target="_blank"><img src="resources/hzlogo.png" class="hzlogo"></a>Manon Mampaey
+    <header><a href="https://www.hz.nl" target="_blank"><img alt="HZ-logo" src="resources/hzlogo.png"
+                class="hzlogo"></a>Manon Mampaey
     </header>
     <nav>
-        <div>
-            <ul class="navigation">
-                <li class="navigationlist"><a class="active nav-a" href="index.html">Home</a></li>
-                <li class="navigationlist"><a class="nav-a" href="profile.html">Profile</a></li>
-                <li class="navigationlist"><a class="nav-a" href="dashboard.html">Dashboard</a></li>
-                <li class="navigationlist"><a class="nav-a" href="blog.html">Blog</a></li>
-                <li class="navigationlist" style="float:right"><a class="nav-a" href="faq.html">FAQ</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
     </nav>
-
-    <main class="indexmain">
-        <div>
-            <img src="resources/banner.jpg" class="banner">
-            <div class="text-over-image">Welcome to the website of a graduate student in four years!</div>
-        </div>
-        <p class="mainhome">Welcome to this website, feel free to look around. If you&#8217d like to get to know more
-            about who I am and what things I like to do, <a style="color: black" href="profile.html">go here.</a> If you
-            scroll down, you&#8217ll see an introduction to my motivation for the choice for ICT. I elaborate more on
-            the
-            topic in some of my blogposts. </p>
-        <p>
-        <div class="grid">
-            <div><img src="resources/img_homepage.jpg" alt="profile picture" class="imghome"></div>
-            <div>
+    <section>
+        <img src="resources/banner.jpg" class="banner">
+        <article class="text-over-image">Welcome to the website of a graduate student in four years!</article>
+    </section>
+    <main>
+        <section>
+            <article>
+                <p>
+                    Welcome to this website, feel free to look around. If you&#8217d like to get to know more about who
+                    I am and what things I like to do, <a href="profile.html">go here.</a> On this page,
+                    you&#8217ll see an introduction to my motivation for the choice for ICT. I elaborate
+                    more on the topic in some of my blogposts.
+                </p>
+            </article>
+        </section>
+        <section class="grid-index">
+            <article><img alt="profile picture" src="resources/img_homepage.jpg" class="imghome"></article>
+            <article>
                 <h3>Why ICT Field</h3>
                 <p>I tried a studies called &#x0022Toegepaste Wiskunde&#x0022 (Applied Mathematics) a few years ago, but
-                    it didn&#8217t
-                    work out. In the study programme were some courses related to ICT, and that really grabbed my
-                    attention.
-                    I have worked a year at Roompot at the Systemmanagement and Project department, where we had to use
-                    and maintain (from the front-end) some systems, including:
+                    it didn&#8217t work out. In the study programme were some courses related to ICT, and that really
+                    grabbed my attention. I have worked a year at Roompot at the Systemmanagement and Project
+                    department, where we had to use and maintain (from the front-end) some systems, including:
                 <ul>
                     <li>Maxxton Software</li>
                     <li>Newyse</li>
@@ -55,8 +57,8 @@
                 overview of how they made the systems and changed things. I really liked that part more than only
                 working from the front-end. This is one of the reasons that the ICT field interested me. For the
                 reason why it is the best choice for me, take a look at my Blog-page.</p>
-            </div>
-            <div>
+            </article>
+            <article>
                 <h3>Why an ICT studies</h3>
                 <p>SO I figured out that I wanted to do something with ICT. I tried a couple online courses of
                     Programming, including:
@@ -72,35 +74,26 @@
                 harder. I decided that it was better to have more support from real-life teachers that I could bother
                 with my questions. That's why I chose for a full-time ICT-programme.
                 </p>
-            </div>
-        </div>
+            </article>
+        </section>
     </main>
 </body>
 <footer>
-    <nav>
-        <div>
-            <ul class="aside-menu">
-                <li class="aside-list"><a class="aside-a" href="resources/CER.pdf" target="_blank">CER2</a></li>
-                <li class="aside-list"><a class="aside-a"
-                        href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
-                        target="_blank">IR</a></li>
-                <li class="aside-list"><a class="aside-a" href="https://learn.hz.nl/my/" target="_blank">The
-                        Learn Environment</a></li>
-                <li class="aside-list"><a class="aside-a"
-                        href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c"
-                        target="_blank">Teams environment</a></li>
-                <li class="aside-list"><a class="aside-a" href="https://apps.hz.nl/angular/studievoortgang/studiestatus"
-                        target="_blank">Study Progress</a></li>
-                <li class="aside-list"><a class="aside-a" href="https://github.com/HZ-HBO-ICT" target="_blank">Github
-                        Environment</a></li>
-                <li class="aside-list"><a class="aside-a" href="https://www.facebook.com/manon.mampaey/"
-                        target="_blank">My Facebook Page</a></li>
-                <li class="aside-list"><a class="aside-a" href="https://www.instagram.com/mampaeymanon/"
-                        target="_blank">My Instagram Profile</a></li>
-            </ul>
-        </div>
-    </nav>
-
+    <aside>
+        <ul>
+            <li><a href="resources/CER.pdf" target="_blank">CER2</a></li>
+            <li><a href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
+                    target="_blank">IR</a></li>
+            <li><a href="https://learn.hz.nl/my/" target="_blank" target="_blank">The
+                    Learn Environment</a></li>
+            <li><a href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c"
+                    target="_blank">Teams environment</a></li>
+            <li><a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target="_blank">Study Progress</a>
+            </li>
+            <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">Github
+                    Environment</a></li>
+        </ul>
+    </aside>
 </footer>
 
 </html>

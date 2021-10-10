@@ -2,31 +2,40 @@
 <html>
 
 <head>
+    <title>Blogpost Profession</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog</title>
-    <link href="style2.css" rel="stylesheet">
+    <meta name="description" content="A blogpost about the Company Safari, I 
+    describe the companies that interested me the most.">
+    <link href="style-website.css" rel="stylesheet">
 </head>
 
 <body>
-    <header><a href="https://www.hz.nl" target="_blank"><img src="resources/hzlogo.png" class="hzlogo"></a>Programming
+    <header><a href="https://www.hz.nl" target="_blank"><img alt="HZ-logo" src="resources/hzlogo.png" class="hzlogo"></a>Programming
         experience</header>
-    <ul class="navigation">
-        <li class="navigationlist" style="float:right"><a class="nav-a" href="blog.html">Back to the blogpage</a></li>
-    </ul>
-    <main>
-        <p>Last Friday, we had a company Safari. In the morning, we attended two presentations of IT companies, and in
-            the afternoon we
-            looked online at some other IT companies. From those, I chose three companies that interested me the most.
-            In this blogpost,
-            you will read what the companies do and what my pros and cons are. You can click on the posters, to be able
-            to read them better.
-        </p>
-        <div class="grid3">
-            <div class="item1"><a href="resources/PosterSAP.png" target="_blank"><img src="resources/PosterSAP.png"
-                        class="poster"></a></div>
-            <div class="item2">
+        <nav>
+            <ul>
+                <li class="menu-right"><a href="blog.html">Back to the blogpage</a></li>
+            </ul>
+        </nav>
+    <main class="margin-not-index">
+        <section>
+            <article>
+                <p>Last Friday, we had a company Safari. In the morning, we attended two presentations of IT companies, and in
+                    the afternoon we
+                    looked online at some other IT companies. From those, I chose three companies that interested me the most.
+                    In this blogpost,
+                    you will read what the companies do and what my pros and cons are. You can click on the posters, to be able
+                    to read them better.
+                </p>
+                <br><br>
+            </article>
+        </section>
+        <section class="grid-blogpostprof">
+            <article><a href="resources/PosterSAP.png" target="_blank"><img alt="Poster with information about SAP" src="resources/PosterSAP.png"
+                        class="poster"></a></article>
+            <article class="item-2-and-8">
                 <h3>What is SAP?</h3>
                 <p>SAP is one of the world's leading producers of software for the management of business processes,
                     developing
@@ -49,12 +58,12 @@
                     couldn't
                     find anywhere if this was actually the case, so maybe it is just me being biased.
                 </p>
-            </div>
-            <div class="item3"></div>
-            <div class="item4"></div>
-            <div class="item5"><a href="resources/PosterSyntess.png" target="_blank"><img
-                        src="resources/PosterSyntess.png" class="poster"></a></div>
-            <div class="item6">
+            </article>
+            <article></article>
+            <article></article>
+            <article class="item5"><a href="resources/PosterSyntess.png" target="_blank"><img alt="Poster with information about Syntess"
+                        src="resources/PosterSyntess.png" class="poster"></a></article>
+            <article class="item6">
                 <h3>What is Syntess?</h3>
                 <p>
                     Syntess Software is producer of ERP- and mobile software in the Netherlands.
@@ -78,10 +87,10 @@
                     things.
                     Overall, I do think a smaller company fits me better.
                 </p>
-            </div>
-            <div class="item7"><a href="resources/PosterMaxxton.png" target="_blank"><img
-                        src="resources/PosterMaxxton.png" class="poster"></a></div>
-            <div class="item8">
+            </article>
+            <article><a href="resources/PosterMaxxton.png" target="_blank"><img alt="Poster with information about Maxxton"
+                        src="resources/PosterMaxxton.png" class="poster"></a></article>
+            <article class="item-2-and-8">
                 <h3>What is Maxxton?</h3>
                 <p>
                     The Maxxton Group is the leading provider of IT services and consultancy for the broader hospitality
@@ -124,8 +133,8 @@
                     too high standards.
                     But I have no idea if that is the case at Maxxton.
                 </p>
-            </div>
-        </div>
+            </article>
+        </section>
     </main>
 
 </body>
